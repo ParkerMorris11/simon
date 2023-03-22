@@ -1,14 +1,21 @@
 {
   "name": "simon",
   "version": "1.0.0",
-  "description": "This deliverable demonstrates the use of basic JavaScript for interactivity.",
-  "main": "login.js",
+  "description": "Simon with service endpoints",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ParkerMorris11/simon"
+  },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ParkerMorris11/simon"
+  },
+  "homepage": "https://github.com/ParkerMorris11/simon",
   "dependencies": {
     "express": "^4.18.2"
   }
