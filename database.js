@@ -8,10 +8,10 @@ if (!userName) {
   throw Error('Database not configured. Set environment variables');
 }
 
-const url = `mongodb+srv://cs260:2J5WHYzVYPTNEEkE@cs260.9nwdck2.mongodb.net/?retryWrites=true&w=majority`;
+const url = `mongodb+srv://cs260:2J5WHYzVYPTNEEkE@cs260.9nwdck2.mongodb.net`;
 
 const client = new MongoClient(url);
-const scoreCollection = client.db('simon').collection('score');
+const scoreCollection = client.db('Simon').collection('score');
 
 function addScore(score) {
   scoreCollection.insertOne(score);
