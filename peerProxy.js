@@ -46,7 +46,7 @@ class PeerProxy {
     });
 
     // Keep active connections alive
-    setInterval(() => { 
+    setInterval(() => {
       connections.forEach((c) => {
         // Kill any connection that didn't respond to the ping last time
         if (!c.alive) {
